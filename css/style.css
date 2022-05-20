@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    height: 100%;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+}
+
+.card {
+    width: 250px;
+    align-self: center;
+    margin: auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+
+.image, .title, .sub-title, .extras ,hr{
+    margin: 15px 15px 0px 15px;
+}
+
+.image img {
+    border-radius: 10px;
+}
+
+.title h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sub-title h2 {
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.extras {
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+}
+
+.eth, .time{
+    display: flex;
+    flex-direction: row;
+}
+
+.eth p {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.time p, .created-by h3 {
+    color: hsl(215, 51%, 70%);
+}
+
+.extras svg, p {
+    margin: 0 5px auto auto;
+}
+
+hr {
+    background-color: hsl(215, 32%, 27%);
+    height: 1px;
+    border: none;
+}
+
+.created-by {
+    margin: 10px 15px 15px 15px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: flex-start;
+}
+
+.created-by h3 {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.created-by img {
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50px;
+    margin: auto 10px auto 0;
+}
+
+.created-by span, footer {
+    color: hsl(0, 0%, 100%);
+}
